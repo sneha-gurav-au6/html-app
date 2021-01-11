@@ -1,0 +1,73 @@
+.container {
+    display: grid;
+    margin-left: 10%;
+
+    grid-template-columns: repeat(auto-fit, 400px);
+    grid-template-rows: repeat(2, 200px);
+
+    /* grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-rows: 150px;
+    grid-gap: 3px; */
+}
+.container > .details {
+}
+
+.container .div1 .span {
+    padding-bottom: 0%;
+    padding-left: 0%;
+}
+.container .div2 {
+    background-color: white;
+    margin: 4px 2px;
+}
+.container .div3 {
+    background-color: white;
+    font-size: 10px;
+}
+.container .div3 .button1 {
+    background-color: thistle;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    border-radius: 20px;
+}
+
+.container .div5 {
+    background-color: white;
+    font-size: 12px;
+}
+.container .div5 .button2 {
+    background-color: #ff3a58;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    border-radius: 20px;
+}
+.container .image .navigation {
+    color: gray;
+    font-size: 10px;
+}
+.container .details {
+    display: grid;
+    grid-template-columns: 300px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 0.5em;
+    padding-top: 100px;
+}
+.container .image .image1 {
+    height: auto;
+    width: 100%;
+}
+.container .second-block {
+    margin-top: 100px;
+}

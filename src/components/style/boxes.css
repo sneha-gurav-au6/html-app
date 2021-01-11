@@ -1,0 +1,60 @@
+.container1 {
+    margin-left: 10%;
+    margin-top: auto;
+}
+.container1 .boxes {
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+    grid-template-rows: repeat(2, 100px);
+}
+.container1 .text {
+    margin-top: auto;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: 15px;
+}
+.container1 .boxes button {
+    background-color: thistle;
+    border: none;
+    color: black;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    /* margin: 8px 4px; */
+    border-radius: 20px;
+    width: 110px;
+}
+@media screen and (max-width: 800px) {
+    .container1 .boxes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(5, 100px);
+    }
+}
+.container1 .text2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+}
+.container1 .new {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+}
+
+.container1 .new .box1 {
+    flex-basis: 200px;
+    height: 300px;
+    border: 1px snow black;
+
+    text-align: left;
+}
+.container1 .new .box2 {
+    flex-basis: 200px;
+    height: 300px;
+    text-align: left;
+}
