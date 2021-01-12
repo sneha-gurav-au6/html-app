@@ -70,10 +70,18 @@ export default class Boxes extends Component {
                                 width: "150px",
                                 height: "150px",
                                 backgroundColor: "lightgray",
-                                borderRadius: "20%",
                             }}
                         ></div>
-                        #3 Words in French
+                        <div
+                            style={{
+                                width: "150px",
+                                height: "80px",
+                                backgroundColor: " #FFFFBF",
+                                textAlign: "bottom",
+                            }}
+                        >
+                            #3 Words in French
+                        </div>
                     </div>
                     <div className="box2">
                         <div
@@ -81,10 +89,18 @@ export default class Boxes extends Component {
                                 width: "150px",
                                 height: "150px",
                                 backgroundColor: "lightgray",
-                                borderRadius: "20%",
                             }}
                         ></div>
-                        #3 Works in French
+                        <div
+                            style={{
+                                width: "150px",
+                                height: "80px",
+                                backgroundColor: " #FFFFBF",
+                                textAlign: "bottom",
+                            }}
+                        >
+                            #3 Words in French
+                        </div>
                     </div>
                     <div className="box3"></div>
                     <div className="box3"></div>

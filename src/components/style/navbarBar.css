@@ -3,7 +3,7 @@
     margin-left: 10%;
 
     grid-template-columns: repeat(auto-fit, 400px);
-    grid-template-rows: repeat(2, 200px);
+    grid-template-rows: repeat(auto-fit 150px);
 
     /* grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-template-rows: 150px;
